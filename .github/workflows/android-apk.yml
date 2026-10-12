@@ -27,10 +27,11 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+
       - name: Extract game project
         run: |
           mkdir project
-          unzip JANGAN MENENGOK v1.9.3 — Offline + Ikon.zip -d project
+          unzip "JANGAN_MENENGOK_v1_9_3_OFFLINE_DAN_IKON.zip" -d project
           test -f project/package.json
 
       - name: Install dependencies
